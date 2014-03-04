@@ -1,0 +1,35 @@
+# make clean
+*.a
+*.o
+*.obj
+*.ln
+*.bb
+*.bbg
+*.da
+*.c.tcov
+*.c.gcov
+gmon.out
+*.bak
+
+# Sumatra
+.smt/
+
+# AMD c executables
+Demo/amd_demo
+Demo/amd_demo2
+Demo/amd_simple
+
+# AMD c demo test output
+Demo/my_amd_demo.out
+Demo/my_amd_demo2.out
+Demo/my_amd_simple.out
+
+# AMD f77 executables and test output
+Demo/amd_f77demo
+Demo/amd_f77simple
+Demo/my_amd_f77demo.out
+Demo/my_amd_f77simple.out
+
+# results files
+Data/
+
